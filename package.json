@@ -1,0 +1,22 @@
+{
+  "name": "cod-reducere-zooplus",
+  "version": "1.0.0",
+  "description": "Fetch automat de coduri de reducere Zooplus de pe shopilo.ro",
+  "main": "index.js",
+  "keywords": [
+    "cod-reducere",
+    "cod-reducere-zooplus",
+    "voucher-zooplus",
+    "cupon-zooplus",
+    "reduceri",
+    "shopilo",
+    "cupoane"
+  ],
+  "author": "shopilo-ro",
+  "license": "MIT",
+  "homepage": "https://shopilo.ro/magazin/zooplus.ro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shopilo-ro/cod-reducere-zooplus.git"
+  }
+}
