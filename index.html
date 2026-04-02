@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cod reducere Zooplus — Aprilie 2026 | shopilo.ro</title>
+  <meta name="description" content="Script Python open-source pentru fetch automat de coduri de reducere Zooplus. Returneaza cupoane Zooplus active in format JSON de pe shopilo.ro.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cod reducere Zooplus — Aprilie 2026 | shopilo.ro">
+  <meta property="og:description" content="Script Python open-source pentru fetch automat de coduri de reducere Zooplus de pe shopilo.ro.">
+  <meta property="og:url" content="https://shopilo-ro.github.io/cod-reducere-zooplus/">
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Ce este un cod de reducere Zooplus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un cod de reducere Zooplus (numit si voucher Zooplus sau cupon Zooplus) este un sir de caractere pe care il introduci la checkout pentru a obtine o reducere la comanda ta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unde gasesc cele mai noi cupoane Zooplus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pe shopilo.ro gasesti lista completa de cod reducere Zooplus actualizata zilnic, cu date de expirare si conditii clare: https://shopilo.ro/magazin/zooplus.ro"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Pot combina mai multe coduri de reducere Zooplus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "De obicei se poate folosi un singur cod per comanda. Verifica termenii fiecarui cupon Zooplus pe pagina shopilo.ro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cat timp sunt valabile cupoanele Zooplus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fiecare cod reducere Zooplus are o data de expirare proprie afisata in tabel. shopilo.ro verifica si actualizeaza zilnic lista de cupoane Zooplus active."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Functioneaza codul de reducere Zooplus pe aplicatia mobila?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unele cupoane Zooplus sunt valabile exclusiv in aplicatia mobila, altele doar pe site. Conditiile sunt afisate pe fiecare cupon in parte pe shopilo.ro."
+      }
+    }
+  ]
+}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Shopilo Dev", "item": "https://shopilo-ro.github.io"}, {"@type": "ListItem", "position": 2, "name": "Cod reducere Zooplus", "item": "https://shopilo-ro.github.io/cod-reducere-zooplus/"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Cod reducere Zooplus | shopilo.ro", "description": "Cele mai bune coduri de reducere Zooplus. Cupoane Zooplus active, voucher Zooplus si oferte exclusive pe shopilo.ro.", "url": "https://shopilo-ro.github.io/cod-reducere-zooplus/", "dateModified": "2026-04-01", "isPartOf": {"@type": "WebSite", "name": "Shopilo Dev", "url": "https://shopilo-ro.github.io"}, "about": {"@type": "Thing", "name": "Zooplus"}}</script>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f6f8fa;color:#212529;line-height:1.6}
+    a{color:#0969da;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:860px;margin:0 auto;padding:0 24px}
+    header{background:#24292f;padding:14px 0}
+    .header-inner{display:flex;justify-content:space-between;align-items:center}
+    .logo{font-weight:600;color:#fff;font-size:15px}
+    nav a{font-size:13px;color:#8b949e;margin-left:20px}
+    nav a:hover{color:#fff;text-decoration:none}
+    .hero{background:#fff;border-bottom:1px solid #e1e4e8;padding:40px 0 32px}
+    .breadcrumb{font-size:13px;color:#57606a;margin-bottom:16px}
+    .breadcrumb a{color:#57606a}
+    .repo-title{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+    .repo-icon{color:#57606a;font-size:18px}
+    .hero h1{font-size:22px;font-weight:600;color:#24292f;margin:0}
+    .hero h1 a{color:#0969da}
+    .hero-desc{color:#57606a;font-size:15px;margin:10px 0 20px;max-width:600px}
+    .badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+    .badge{display:inline-flex;align-items:center;gap:4px;background:#f6f8fa;border:1px solid #e1e4e8;border-radius:4px;padding:3px 10px;font-size:12px;color:#57606a}
+    .badge-blue{background:#ddf4ff;border-color:#54aeff;color:#0550ae}
+    .badge-green{background:#dafbe1;border-color:#56d364;color:#1a7f37}
+    .cta{display:inline-flex;align-items:center;gap:6px;background:#2da44e;color:#fff;padding:8px 18px;border-radius:6px;font-size:14px;font-weight:600;transition:.15s}
+    .cta:hover{background:#2c974b;text-decoration:none}
+    main{padding:32px 0 60px;display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start}
+    @media(max-width:700px){main{grid-template-columns:1fr}}
+    .main-col{display:flex;flex-direction:column;gap:20px}
+    .sidebar{display:flex;flex-direction:column;gap:16px}
+    .card{background:#fff;border:1px solid #e1e4e8;border-radius:10px;padding:20px}
+    .card h2{font-size:15px;font-weight:600;margin-bottom:14px;color:#24292f;padding-bottom:10px;border-bottom:1px solid #e1e4e8}
+    .card h3{font-size:14px;font-weight:600;color:#24292f;margin:0 0 4px}
+    pre{background:#f6f8fa;border:1px solid #e1e4e8;border-radius:6px;padding:14px;font-size:13px;overflow-x:auto;line-height:1.5}
+    code{font-family:'SFMono-Regular',Consolas,monospace;font-size:13px}
+    .inline-code{background:#f6f8fa;border:1px solid #e1e4e8;border-radius:4px;padding:1px 6px;font-family:monospace;font-size:12px;color:#24292f}
+    table{width:100%;border-collapse:collapse;font-size:13px}
+    th{text-align:left;padding:8px 12px;background:#f6f8fa;border:1px solid #e1e4e8;font-weight:600;color:#57606a;font-size:12px}
+    td{padding:8px 12px;border:1px solid #e1e4e8;color:#24292f}
+    td.mono{font-family:monospace;font-weight:700;color:#0969da}
+    .tag-green{display:inline-block;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600;background:#dafbe1;color:#1a7f37}
+    .faq-item{margin-bottom:16px}
+    .faq-item:last-child{margin-bottom:0}
+    .faq-item h3{font-size:14px;font-weight:600;color:#24292f;margin-bottom:4px}
+    .faq-item p{font-size:13px;color:#57606a;line-height:1.6}
+    .kw-list{display:flex;flex-wrap:wrap;gap:6px}
+    .kw{display:inline-block;padding:3px 10px;border-radius:20px;font-size:12px;color:#0969da;border:1px solid #c8e1ff;background:#f1f8ff}
+    .kw:hover{background:#ddf4ff;text-decoration:none}
+    .about-text{font-size:13px;color:#57606a;line-height:1.7}
+    .steps{display:flex;flex-direction:column;gap:10px;counter-reset:steps}
+    .step{display:flex;gap:12px;align-items:flex-start;font-size:13px;color:#57606a}
+    .step-num{background:#0969da;color:#fff;border-radius:50%;width:22px;height:22px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;margin-top:1px}
+    footer{background:#f6f8fa;border-top:1px solid #e1e4e8;padding:20px 0;font-size:12px;color:#57606a;text-align:center}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="header-inner">
+      <a href="https://shopilo-ro.github.io" class="logo">&#9679; shopilo-ro</a>
+      <nav>
+        <a href="https://shopilo-ro.github.io">Toate magazinele</a>
+        <a href="https://github.com/shopilo-ro/cod-reducere-zooplus">GitHub</a>
+        <a href="https://shopilo.ro">shopilo.ro</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="breadcrumb">
+      <a href="https://github.com/shopilo-ro">shopilo-ro</a> /
+      <a href="https://github.com/shopilo-ro/cod-reducere-zooplus">cod-reducere-zooplus</a>
+    </div>
+    <div class="repo-title">
+      <span class="repo-icon">&#128196;</span>
+      <h1><a href="https://shopilo-ro.github.io">shopilo-ro</a> / cod-reducere-zooplus</h1>
+    </div>
+    <p class="hero-desc">Script Python open-source pentru fetch automat de <strong>coduri de reducere Zooplus</strong> de pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro</a>. Returneaza cupoane active in format JSON.</p>
+    <div class="badges">
+      <span class="badge badge-blue">Python 3.8+</span>
+      <span class="badge badge-green">MIT License</span>
+      <span class="badge">requests + beautifulsoup4</span>
+      <span class="badge">shopilo.ro</span>
+    </div>
+    <a href="https://shopilo.ro/magazin/zooplus.ro" class="cta">
+      &#128279; Date live Zooplus pe shopilo.ro
+    </a>
+  </div>
+</div>
+
+<div class="wrap">
+<main>
+  <div class="main-col">
+
+    <div class="card">
+      <h2>Instalare si utilizare rapida</h2>
+      <pre><code># Instaleaza dependentele
+pip install requests beautifulsoup4
+
+# Cloneaza repo-ul
+git clone https://github.com/shopilo-ro/cod-reducere-zooplus
+cd cod-reducere-zooplus
+
+# Ruleaza scriptul
+python fetch.py</code></pre>
+      <p style="font-size:13px;color:#57606a;margin-top:12px">Sau instaleaza ca modul npm:</p>
+      <pre><code>npm install cod-reducere-zooplus
+
+# Foloseste in Node.js
+const { fetchCoupons } = require('cod-reducere-zooplus');
+fetchCoupons().then(data => console.log(data));</code></pre>
+    </div>
+
+    <div class="card">
+      <h2>Output fetch.py — Aprilie 2026</h2>
+      <pre><code>[
+  {
+    "store": "Zooplus",
+    "code": "SHOPILO10",
+    "discount": "10%",
+    "description": "10% reducere la prima comanda",
+    "expires": "2026-10-02",
+    "source": "https://shopilo.ro/magazin/zooplus.ro",
+    "fetched_at": "2026-04-01T09:12:33"
+  }
+]</code></pre>
+      <table style="margin-top:14px">
+        <thead>
+          <tr>
+            <th>Reducere</th><th>Descriere</th><th>Sursa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>10%</td>
+            <td>10% reducere la prima comanda</td>
+            <td><a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-size:12px;color:#57606a;margin-top:12px">
+        Codurile active si verificate sunt disponibile pe
+        <a href="https://shopilo.ro/magazin/zooplus.ro" style="font-weight:600">shopilo.ro/magazin/zooplus.ro</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Cum functioneaza scriptul</h2>
+      <div class="steps">
+        <div class="step"><span class="step-num">1</span><span>Face un GET request catre pagina publica <span class="inline-code">https://shopilo.ro/magazin/zooplus.ro</span> cu un User-Agent standard</span></div>
+        <div class="step"><span class="step-num">2</span><span>Parseaza HTML-ul cu <span class="inline-code">BeautifulSoup</span> si selecteaza elementele cu selectori CSS (<span class="inline-code">.coupon-item</span>, <span class="inline-code">[data-coupon]</span>)</span></div>
+        <div class="step"><span class="step-num">3</span><span>Extrage per cupon: codul (<span class="inline-code">data-code</span>), reducerea, descrierea si data de expirare</span></div>
+        <div class="step"><span class="step-num">4</span><span>Returneaza lista ca JSON in stdout — gata de integrat in orice pipeline, bot sau extensie</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Intrebari frecvente — cod reducere Zooplus</h2>
+      <div class="faq-item">
+        <h3>Ce returneaza scriptul fetch.py?</h3>
+        <p>Un array JSON cu obiectele cupoanelor active: codul de reducere Zooplus, procentul de discount, descrierea, data de expirare si URL-ul sursa de pe shopilo.ro.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Cat de des pot rula scriptul?</h3>
+        <p>Recomandam maxim o rulare la 6 ore. Datele de pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro</a> se actualizeaza zilnic, deci un cron la cateva ore este suficient.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Functioneaza si ca modul npm?</h3>
+        <p>Da. <span class="inline-code">npm install cod-reducere-zooplus</span> instaleaza versiunea JavaScript care foloseste <span class="inline-code">fetch()</span> nativ din Node 18+ si exporta aceeasi structura JSON.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Unde gasesc toate cupoanele Zooplus active?</h3>
+        <p>Lista completa si actualizata zilnic pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro/magazin/zooplus.ro</a> — sursa de date a acestui script.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Pot combina mai multe coduri de reducere Zooplus?</h3>
+        <p>De obicei un singur voucher Zooplus per comanda. Conditiile complete sunt afisate pe fiecare cupon pe shopilo.ro.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sidebar">
+
+    <div class="card">
+      <h2>Despre Zooplus</h2>
+      <p class="about-text">Zooplus este unul dintre magazinele online populare. Scriptul extrage automat codurile de reducere Zooplus disponibile pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro</a>.</p>
+    </div>
+
+    <div class="card">
+      <h2>Cum folosesti un cod Zooplus</h2>
+      <div class="steps">
+        <div class="step"><span class="step-num">1</span><span>Copiaza codul din output-ul scriptului</span></div>
+        <div class="step"><span class="step-num">2</span><span>Adauga produsele dorite in cosul Zooplus</span></div>
+        <div class="step"><span class="step-num">3</span><span>La checkout, introdu codul in campul "Voucher" sau "Cod promotional"</span></div>
+        <div class="step"><span class="step-num">4</span><span>Apasa "Aplica" — reducerea se aplica automat</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Cuvinte cheie</h2>
+      <div class="kw-list">
+        <a href="https://shopilo.ro/magazin/zooplus.ro" class="kw">cod reducere Zooplus</a>
+        <a href="https://shopilo.ro/magazin/zooplus.ro" class="kw">voucher Zooplus</a>
+        <a href="https://shopilo.ro/magazin/zooplus.ro" class="kw">cupon Zooplus</a>
+        <a href="https://shopilo.ro/magazin/zooplus.ro" class="kw">cod promotional Zooplus</a>
+        <a href="https://shopilo.ro/magazin/zooplus.ro" class="kw">reduceri Zooplus</a>
+        <a href="https://shopilo.ro/magazin/zooplus.ro" class="kw">Zooplus discount</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+</div>
+
+<footer>
+  Script open-source. Date de pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro</a> &mdash;
+  <a href="https://shopilo-ro.github.io">Toate magazinele</a>
+</footer>
+
+</body>
+</html>
