@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cod reducere Zooplus — Aprilie 2026 | shopilo.ro</title>
+  <title>Cod reducere Zooplus, Mai 2026 | shopilo.ro</title>
   <meta name="description" content="Script Python open-source pentru fetch automat de coduri de reducere Zooplus. Returneaza cupoane Zooplus active in format JSON de pe shopilo.ro.">
   <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Cod reducere Zooplus — Aprilie 2026 | shopilo.ro">
+  <meta property="og:title" content="Cod reducere Zooplus, Mai 2026 | shopilo.ro">
   <meta property="og:description" content="Script Python open-source pentru fetch automat de coduri de reducere Zooplus de pe shopilo.ro.">
   <meta property="og:url" content="https://shopilo-ro.github.io/cod-reducere-zooplus/">
   <script type="application/ld+json">{
@@ -57,7 +57,7 @@
   ]
 }</script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Shopilo Dev", "item": "https://shopilo-ro.github.io"}, {"@type": "ListItem", "position": 2, "name": "Cod reducere Zooplus", "item": "https://shopilo-ro.github.io/cod-reducere-zooplus/"}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Cod reducere Zooplus | shopilo.ro", "description": "Cele mai bune coduri de reducere Zooplus. Cupoane Zooplus active, voucher Zooplus si oferte exclusive pe shopilo.ro.", "url": "https://shopilo-ro.github.io/cod-reducere-zooplus/", "dateModified": "2026-04-01", "isPartOf": {"@type": "WebSite", "name": "Shopilo Dev", "url": "https://shopilo-ro.github.io"}, "about": {"@type": "Thing", "name": "Zooplus"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Cod reducere Zooplus | shopilo.ro", "description": "Cele mai bune coduri de reducere Zooplus. Cupoane Zooplus active, voucher Zooplus si oferte exclusive pe shopilo.ro.", "url": "https://shopilo-ro.github.io/cod-reducere-zooplus/", "dateModified": "2026-05-01", "isPartOf": {"@type": "WebSite", "name": "Shopilo Dev", "url": "https://shopilo-ro.github.io"}, "about": {"@type": "Thing", "name": "Zooplus"}}</script>
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
     body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f6f8fa;color:#212529;line-height:1.6}
@@ -174,16 +174,16 @@ fetchCoupons().then(data => console.log(data));</code></pre>
     </div>
 
     <div class="card">
-      <h2>Output fetch.py — Aprilie 2026</h2>
+      <h2>Output fetch.py, Mai 2026</h2>
       <pre><code>[
   {
     "store": "Zooplus",
     "code": "SHOPILO10",
     "discount": "10%",
     "description": "10% reducere la prima comanda",
-    "expires": "2026-10-02",
+    "expires": "2026-11-01",
     "source": "https://shopilo.ro/magazin/zooplus.ro",
-    "fetched_at": "2026-04-01T09:12:33"
+    "fetched_at": "2026-05-01T09:12:33"
   }
 ]</code></pre>
       <table style="margin-top:14px">
@@ -212,19 +212,19 @@ fetchCoupons().then(data => console.log(data));</code></pre>
         <div class="step"><span class="step-num">1</span><span>Face un GET request catre pagina publica <span class="inline-code">https://shopilo.ro/magazin/zooplus.ro</span> cu un User-Agent standard</span></div>
         <div class="step"><span class="step-num">2</span><span>Parseaza HTML-ul cu <span class="inline-code">BeautifulSoup</span> si selecteaza elementele cu selectori CSS (<span class="inline-code">.coupon-item</span>, <span class="inline-code">[data-coupon]</span>)</span></div>
         <div class="step"><span class="step-num">3</span><span>Extrage per cupon: codul (<span class="inline-code">data-code</span>), reducerea, descrierea si data de expirare</span></div>
-        <div class="step"><span class="step-num">4</span><span>Returneaza lista ca JSON in stdout — gata de integrat in orice pipeline, bot sau extensie</span></div>
+        <div class="step"><span class="step-num">4</span><span>Returneaza lista ca JSON in stdout, gata de integrat in orice pipeline, bot sau extensie</span></div>
       </div>
     </div>
 
     <div class="card">
-      <h2>Intrebari frecvente — cod reducere Zooplus</h2>
+      <h2>Intrebari frecvente, cod reducere Zooplus</h2>
       <div class="faq-item">
         <h3>Ce returneaza scriptul fetch.py?</h3>
         <p>Un array JSON cu obiectele cupoanelor active: codul de reducere Zooplus, procentul de discount, descrierea, data de expirare si URL-ul sursa de pe shopilo.ro.</p>
       </div>
       <div class="faq-item">
         <h3>Cat de des pot rula scriptul?</h3>
-        <p>Recomandam maxim o rulare la 6 ore. Datele de pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro</a> se actualizeaza zilnic, deci un cron la cateva ore este suficient.</p>
+        <p>Recomandam maxim o rulare la 6 ore. Datele de pe shopilo.ro se actualizeaza zilnic, deci un cron la cateva ore este suficient.</p>
       </div>
       <div class="faq-item">
         <h3>Functioneaza si ca modul npm?</h3>
@@ -232,7 +232,7 @@ fetchCoupons().then(data => console.log(data));</code></pre>
       </div>
       <div class="faq-item">
         <h3>Unde gasesc toate cupoanele Zooplus active?</h3>
-        <p>Lista completa si actualizata zilnic pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro/magazin/zooplus.ro</a> — sursa de date a acestui script.</p>
+        <p>Lista completa si actualizata zilnic pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro/magazin/zooplus.ro</a>, sursa de date a acestui script.</p>
       </div>
       <div class="faq-item">
         <h3>Pot combina mai multe coduri de reducere Zooplus?</h3>
@@ -255,7 +255,7 @@ fetchCoupons().then(data => console.log(data));</code></pre>
         <div class="step"><span class="step-num">1</span><span>Copiaza codul din output-ul scriptului</span></div>
         <div class="step"><span class="step-num">2</span><span>Adauga produsele dorite in cosul Zooplus</span></div>
         <div class="step"><span class="step-num">3</span><span>La checkout, introdu codul in campul "Voucher" sau "Cod promotional"</span></div>
-        <div class="step"><span class="step-num">4</span><span>Apasa "Aplica" — reducerea se aplica automat</span></div>
+        <div class="step"><span class="step-num">4</span><span>Apasa "Aplica", reducerea se aplica automat</span></div>
       </div>
     </div>
 
@@ -276,7 +276,7 @@ fetchCoupons().then(data => console.log(data));</code></pre>
 </div>
 
 <footer>
-  Script open-source. Date de pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro</a> &mdash;
+  Script open-source. Date de pe <a href="https://shopilo.ro/magazin/zooplus.ro">shopilo.ro</a> |
   <a href="https://shopilo-ro.github.io">Toate magazinele</a>
 </footer>
 
